@@ -14,8 +14,11 @@
 - To train the model yourself, run the `109550094_Final_inference.ipynb` directly, be sure both `test.csv` and `train.csv` are at the same directory. Since we analysis the data for test and train at the same time, so both two files need to be load even though for training.
 - After running the code, it will generate the `model.pkl`, which is the training model.
 
+### Pre-trained model
+- The pre-trained model can be found on the above code region, i.e. the `model.pkl` file, or reference to this [link](https://drive.google.com/file/d/1PgHxevL1BsgPgTm0EZv_ufP-HBAgP3Da/view?usp=share_link). 
+
 ### Testing
-- To test the model, run the `109550094_Final_inference.ipynb` directly, but 4 files are needed to be provided, first, both `test.csv` and `train.csv` are needed to be at the same directory, due to the data preprocessing need both two files. Second, you need to prepare a trained model named `model.pkl`, you can train by yourself or the above also provide a trained model. Last, `sample_submission.csv` is needed as the template of output format.
+- To test the model, run the `109550094_Final_inference.ipynb` directly, but 4 files are needed to be provided, first, both `test.csv` and `train.csv` are needed to be at the same directory, due to the data preprocessing need both two files. Second, you need to prepare a trained model named `model.pkl`, you can train by yourself or use the proveided pretrained model. Last, `sample_submission.csv` is needed as the template of output format.
 - After running the code, it will generate a file named `submission.csv`, which is the prediction of the testing data.
 
 ## Details of implementation
